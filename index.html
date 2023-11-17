@@ -35,9 +35,7 @@
 
           <ul class="top-nav">
             <li class="top-nav-li">
-              <a class="top-nav-item active" href="./index.html"
-                >Studio</a
-              >
+              <a class="top-nav-item active" href="./index.html">Studio</a>
             </li>
             <li class="top-nav-li">
               <a class="top-nav-item" href="#portfolio">Portfolio</a>
@@ -62,6 +60,11 @@
             </li>
           </ul>
         </address>
+        <button class="button-burger" type="button">
+          <svg class="burger-icon" width="16.8" height="14.4">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -79,7 +82,7 @@
 
       <section class="benefits vertical-indents">
         <div class="container">
-          <h2 class="benefits-title">Benefits</h2>
+          <h2 class="benefits-title visually-hidden">Benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
               <div class="benefits-area-image">
@@ -143,7 +146,8 @@
             <li class="crew-list-li">
               <img
                 class="crew-list-foto"
-                src="./images/foto1.jpg"
+                srcset="./images/crew-image/mark-guerrero@2x.jpg 2x"
+                src="./images/crew-image/mark-guerrero.jpg"
                 alt="the Mark Guerrero`s photo"
                 width="264"
                 height="260"
@@ -326,10 +330,21 @@
               <div class="portfolio-point">
                 <img
                   class="portfolio-list-img"
-                  src="./images/banking-app.jpg"
+                  srcset="
+                    ./images/portfolio-image/portfolio-mobile/bank-app.jpg    288w,
+                    ./images/portfolio-image/portfolio-mobile/bank-app@2x.jpg 576w,
+                    ./images/portfolio-image/portfolio-tablet/bank-app.jpg    356w,
+                    ./images/portfolio-image/portfolio-tablet/bank-app@2x.jpg 712w,
+                    ./images/portfolio-image/portfolio-laptop/bank-app.jpg    360w,
+                    ./images/portfolio-image/portfolio-laptop/bank-app@2x.jpg 720w
+                  "
+                  sizes="
+                  (min-width: 1158px) 360px,
+                  (min-width: 768px) 356px,
+                  (max-width: 767px) 288px"
+                  src="./images/portfolio-image/portfolio-mobile/bank-app.jpg"
                   alt="Banking app"
-                  width="360"
-                  height="300"
+              
                 />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -346,10 +361,21 @@
               <div class="portfolio-point">
                 <img
                   class="portfolio-list-img"
-                  src="./images/cashles-payment.jpg"
+                  srcset="
+                    ./images/portfolio-image/portfolio-mobile/cashless-payment.jpg    288w,
+                    ./images/portfolio-image/portfolio-mobile/cashless-payment@2x.jpg 576w,
+                    ./images/portfolio-image/portfolio-tablet/cashless-payment.jpg    356w,
+                    ./images/portfolio-image/portfolio-tablet/cashless-payment@2x.jpg 712w,
+                    ./images/portfolio-image/portfolio-laptop/cashless-payment.jpg    360w,
+                    ./images/portfolio-image/portfolio-laptop/cashless-payment@2x.jpg 720w
+                  "
+                  sizes="
+                  (min-width: 1158px) 360px,
+                  (min-width: 768px) 356px,
+                  (max-width: 767px) 288px"
+                  src="./images/portfolio-image/portfolio-mobile/cashless-payment.jpg"
                   alt="Cashles payment"
-                  width="360"
-                  height="300"
+                  
                 />
 
                 <p class="portfolio-overlay">
@@ -367,10 +393,21 @@
               <div class="portfolio-point">
                 <img
                   class="portfolio-list-img"
-                  src="./images/meditation-app.jpg"
+                  srcset="
+                    ./images/portfolio-image/portfolio-mobile/meditation-app.jpg    288w,
+                    ./images/portfolio-image/portfolio-mobile/meditation-app@2x.jpg 576w,
+                    ./images/portfolio-image/portfolio-tablet/meditation-app.jpg    356w,
+                    ./images/portfolio-image/portfolio-tablet/meditation-app@2x.jpg 712w,
+                    ./images/portfolio-image/portfolio-laptop/meditation-app.jpg    360w,
+                    ./images/portfolio-image/portfolio-laptop/meditation-app@2x.jpg 720w
+                  "
+                  sizes="
+                  (min-width: 1158px) 360px,
+                  (min-width: 768px) 356px,
+                  (max-width: 767px) 288px"
+                  src="./images/portfolio-image/portfolio-mobile/meditation-app.jpg"
                   alt="Meditation app"
-                  width="360"
-                  height="300"
+                  
                 />
 
                 <p class="portfolio-overlay">
@@ -388,10 +425,21 @@
               <div class="portfolio-point">
                 <img
                   class="portfolio-list-img"
-                  src="./images/taxi-service.jpg"
+                  srcset="
+                    ./images/portfolio-image/portfolio-mobile/taxi-service.jpg    288w,
+                    ./images/portfolio-image/portfolio-mobile/taxi-service@2x.jpg 576w,
+                    ./images/portfolio-image/portfolio-tablet/taxi-service.jpg    356w,
+                    ./images/portfolio-image/portfolio-tablet/taxi-service@2x.jpg 712w,
+                    ./images/portfolio-image/portfolio-laptop/taxi-service.jpg    360w,
+                    ./images/portfolio-image/portfolio-laptop/taxi-service@2x.jpg 720w
+                  "
+                  sizes="
+                  (min-width: 1158px) 360px,
+                  (min-width: 768px) 356px,
+                  (max-width: 767px) 288px"
+                  src="./images/portfolio-image/portfolio-mobile/taxi-service.jpg"
                   alt="Taxi service"
-                  width="360"
-                  height="300"
+                  
                 />
 
                 <p class="portfolio-overlay">
@@ -409,10 +457,21 @@
               <div class="portfolio-point">
                 <img
                   class="portfolio-list-img"
-                  src="./images/screen-illustrations.jpg"
+                  srcset="
+                    ./images/portfolio-image/portfolio-mobile/screen-illustrations.jpg    288w,
+                    ./images/portfolio-image/portfolio-mobile/screen-illustrations@2x.jpg 576w,
+                    ./images/portfolio-image/portfolio-tablet/screen-illustrations.jpg    356w,
+                    ./images/portfolio-image/portfolio-tablet/screen-illustrations@2x.jpg 712w,
+                    ./images/portfolio-image/portfolio-laptop/screen-illustrations.jpg    360w,
+                    ./images/portfolio-image/portfolio-laptop/screen-illustrations@2x.jpg 720w
+                  "
+                  sizes="
+                  (min-width: 1158px) 360px,
+                  (min-width: 768px) 356px,
+                  (max-width: 767px) 288px"
+                  src="./images/portfolio-image/portfolio-mobile/screen-illustrations.jpg"
                   alt="Screen illustrations"
-                  width="360"
-                  height="300"
+                  
                 />
 
                 <p class="portfolio-overlay">
@@ -430,11 +489,23 @@
               <div class="portfolio-point">
                 <img
                   class="portfolio-list-img"
-                  src="./images/online-courses.jpg"
+                  srcset="
+                    ./images/portfolio-image/portfolio-mobile/woman-and-headphones.jpg    288w,
+                    ./images/portfolio-image/portfolio-mobile/woman-and-headphones@2x.jpg 576w,
+                    ./images/portfolio-image/portfolio-tablet/woman-and-headphones.jpg    356w,
+                    ./images/portfolio-image/portfolio-tablet/woman-and-headphones@2x.jpg 712w,
+                    ./images/portfolio-image/portfolio-laptop/woman-and-headphones.jpg    360w,
+                    ./images/portfolio-image/portfolio-laptop/woman-and-headphones@2x.jpg 720w
+                  "
+                  sizes="
+                  (min-width: 1158px) 360px,
+                  (min-width: 768px) 356px,
+                  (max-width: 767px) 288px"
+                  src="./images/portfolio-image/portfolio-mobile/woman-and-headphones.jpg"
                   alt="A girl with phone"
-                  width="360"
-                  height="300"
-                />
+                  />
+                  <!-- width="288"
+                  height="280" -->
 
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -454,52 +525,52 @@
 
     <!--===== FOOTER =====-->
 
-    <footer class="ground-page">
+    <footer class="ground-page vertical-indents">
       <div class="container ground">
-          <!-- logo -->
-          <div class="box-logo">
-            <a href="./index.html" class="ground-logo"
-              >Web<span class="ground-logo-span">Studio</span></a
-            >
-            <p class="ground-par">
-              Increase the flow of customers and sales for your business with
-              digital marketing & growth solutions.
-            </p>
-          </div>
-          <div class="main-links-box">
-            <p class="main-links-title">Social media</p>
-            <ul class="main-links-list">
-              <li class="main-links-item">
-                <a href="./index.html" class="main-links-area">
-                  <svg class="main-links-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="main-links-item">
-                <a href="./index.html" class="main-links-area">
-                  <svg class="main-links-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="main-links-item">
-                <a href="./index.html" class="main-links-area">
-                  <svg class="main-links-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="main-links-item">
-                <a href="./index.html" class="main-links-area">
-                  <svg class="main-links-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        
+        <!-- logo -->
+        <div class="box-logo">
+          <a href="./index.html" class="ground-logo"
+            >Web<span class="ground-logo-span">Studio</span></a
+          >
+          <p class="ground-par">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="main-links-box">
+          <p class="main-links-title">Social media</p>
+          <ul class="main-links-list">
+            <li class="main-links-item">
+              <a href="./index.html" class="main-links-area">
+                <svg class="main-links-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="main-links-item">
+              <a href="./index.html" class="main-links-area">
+                <svg class="main-links-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="main-links-item">
+              <a href="./index.html" class="main-links-area">
+                <svg class="main-links-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="main-links-item">
+              <a href="./index.html" class="main-links-area">
+                <svg class="main-links-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div class="form-box">
           <p class="ground-form-title">Subscribe</p>
           <form class="ground-form">
@@ -524,7 +595,7 @@
 
     <!-- ====  MODAL FORM  ===== -->
 
-    <div class="modal ">
+    <div class="modal">
       <div class="form-container">
         <button type="button" class="button-modal-close">
           <svg width="8" height="8" class="modal-close">
@@ -545,72 +616,66 @@
                 id="user-name"
               />
 
-              <svg class="icon-svg" width="18"
-                  height="24">
-                <use
-                  href="./images/icons.svg#icon-person"
-                  
-                ></use>
+              <svg class="icon-svg" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
           <div class="modal-form-fieldset">
-            <label class="modal-form-item" for="user-phone">
-              Phone
-            </label>
+            <label class="modal-form-item" for="user-phone"> Phone </label>
             <div class="modal-field-container">
-              <input class="modal-form-field" type="tel" name="user-phone" id="user-phone"/>
-              <svg class="icon-svg" width="18"
-                  height="24">
-                <use
-                  href="./images/icons.svg#icon-phone"
-                  
-                ></use>
+              <input
+                class="modal-form-field"
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+              />
+              <svg class="icon-svg" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
-            </div>
-            <div class="modal-form-fieldset">
-            <label class="modal-form-item" for="user-email">
-              Email
-            </label>
-              <div class="modal-field-container">
-              <input class="modal-form-field" type="email" name="user-email" id="user-email" />
-              <svg class="icon-svg" width="18"
-                  height="24">
-                <use
-                  href="./images/icons.svg#icon-email"
-                  
-                ></use>
+          </div>
+          <div class="modal-form-fieldset">
+            <label class="modal-form-item" for="user-email"> Email </label>
+            <div class="modal-field-container">
+              <input
+                class="modal-form-field"
+                type="email"
+                name="user-email"
+                id="user-email"
+              />
+              <svg class="icon-svg" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
               </svg>
-              </div>
-              </div>
-            <div class="modal-area-container">
-              <label class="modal-form-item" for="user-comment">
-              Comment
-              </label>
-              <textarea
-                  class="modal-area"
-                  name="user-comment"
-                  placeholder="Text input"
-                  
-                  id="user-comment"
-              ></textarea>
-            
+            </div>
+          </div>
+          <div class="modal-area-container">
+            <label class="modal-form-item" for="user-comment"> Comment </label>
+            <textarea
+              class="modal-area"
+              name="user-comment"
+              placeholder="Text input"
+              id="user-comment"
+            ></textarea>
           </div>
           <div class="modal-checkbox-container">
-            <input type="checkbox" class="modal-checkbox visually-hidden" id="user-privacy"
-            value="true"
-            name="user-privacy"/>
+            <input
+              type="checkbox"
+              class="modal-checkbox visually-hidden"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
             <label class="modal-checkbox-title" for="user-privacy">
-            
-              <span class="modal-checkbox-span"><svg class="icon-checkbox" width="10" height="8">
-                <use href="./images/icons.svg#icon-check" ></use>
-              </svg></span>
-            I accept the terms and conditions of the
-            <a class="policy-link" href="./index.html" target="_blank"
-              >Privacy Policy</a
-            >
-          </label>
+              <span class="modal-checkbox-span"
+                ><svg class="icon-checkbox" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use></svg
+              ></span>
+              I accept the terms and conditions of the
+              <a class="policy-link" href="./index.html" target="_blank"
+                >Privacy Policy</a
+              >
+            </label>
           </div>
           <button
             type="submit"
@@ -622,5 +687,73 @@
         </form>
       </div>
     </div>
+
+    <!-- -- -  /MODALFORM  - -- -->
+
+    <!-- -- -  MOBILE MENU  - -- -->
+    <div class="mobile-menu-box">
+      <div class="container mobile-menu">
+        <button type="button" class="mobile-close">
+          <svg width="8" height="8" class="modal-close">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-nav">
+          <li class="mobile-nav-li">
+            <a class="mobile-nav-item" href="">Studio</a>
+          </li>
+          <li class="mobile-nav-li">
+            <a class="mobile-nav-item" href="">Portfolio</a>
+          </li>
+          <li class="mobile-nav-li">
+            <a class="mobile-nav-item" href="">Contacts</a>
+          </li>
+        </ul>
+        <ul class="mobile-contact-list">
+          <li>
+            <a class="mobile-contact-item" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
+            <a class="mobile-contact-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-list-links">
+          <li class="mobile-link-item">
+            <a href="./index.html" class="mobile-link-area">
+              <svg class="menu-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-link-item">
+            <a href="./index.html" class="mobile-link-area">
+              <svg class="menu-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-link-item">
+            <a href="./index.html" class="mobile-link-area">
+              <svg class="menu-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-link-item">
+            <a href="./index.html" class="mobile-link-area">
+              <svg class="menu-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- -- -  /MOBILE MENU  - -- -->
   </body>
 </html>
