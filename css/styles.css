@@ -43,8 +43,8 @@ input {
 
 .container {
   margin: 0 auto;
-  width: 300px;
-  padding: 0 6px;
+  width: 320px;
+  padding: 0 16px;
 }
 
 .vertical-indents {
@@ -139,8 +139,9 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 72px 16px;
-  max-width: 100%;
+  padding: 72px 0;
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 @media screen and (min-resolution: 192dpi),
@@ -484,7 +485,7 @@ input {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  text-align: left;
+  text-align: center;
 }
 
 .ground-form-field {
@@ -1029,7 +1030,7 @@ input {
       ),
       url('../images/hero-image/tablet/work-table.jpg');
     padding: 112px 0;
-    width: 100%;
+    max-width: 768px;
   }
 
   @media screen and (min-resolution: 192dpi),
@@ -1219,7 +1220,7 @@ input {
       ),
       url('../images/hero-image/laptop/work-table.jpg');
     padding: 188px 0;
-    width: 100%;
+    max-width: 1440px;
   }
 
   @media screen and (min-resolution: 192dpi),
